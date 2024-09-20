@@ -3,12 +3,11 @@ import Nav from './components/Nav'
 import Hero from './Pages/Hero'
 import About from './Pages/About'
 import Indutries from './Pages/Indutries'
-import Team from './components/TeamMember'
 import Testimonial from './Pages/Testimonial'
 import TeamPage from './components/TeamPage'
 import JobsPage from './Pages/JobsPage'
-import GetInTouch from './components/GetinTouch'
 import Footer from './Pages/Footer'
+import GetInTouch from './components/GetInTouch'
 
 function App() {
   return(
