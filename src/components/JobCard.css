@@ -1,0 +1,48 @@
+.job-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .job-role {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .job-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .job-type {
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+  }
+  
+  .job-type.contract {
+    background-color: #ffd700;
+    color: #333;
+  }
+  
+  .job-type.permanent {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .job-location {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
