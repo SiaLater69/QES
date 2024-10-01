@@ -39,18 +39,6 @@ const teamMembers = [
       image: member4Image,
       description: "David manages our candidate database and coordinates our recruitment events."
     },
-    {
-      name: "David Lee",
-      role: "Recruitment Coordinator",
-      image: member4Image,
-      description: "David manages our candidate database and coordinates our recruitment events."
-    },
-    {
-      name: "David Lee",
-      role: "Recruitment Coordinator",
-      image: member4Image,
-      description: "David manages our candidate database and coordinates our recruitment events."
-    },
   ];
 
 const TeamPage = () => {
